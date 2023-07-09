@@ -8,70 +8,71 @@
     <title>CV</title>
   </head>
   <body>
+  <div class="wrapper_header-main">
     <header>
       <nav class="menu">
-        <ul class="main-menu">
-          <li><a href="#summary">Summary</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#code">Code Example</a></li>
-          <li><a href="#work">Work experience</a></li>
-          <li><a href="#education">Education and courses</a></li>
-          <li><a href="#languages">Languages</a></li>
-        </ul>
+          <div class="wrap_contacts">
+              <h1 class="menu_name">Tokar Ekaterina</h1>
+              <img src="img/woman-resume.png" alt="photo-resume" class="photo-resume">
+              <ul class="contacts">
+                  <li>E-mail: ekaterinatokar19@gmail.com</li>
+                  <li>Phone: +998 91 791-99-51</li>
+              </ul>
+          </div>
+          <ul class="main_menu">
+              <li><a href="#summary">Summary</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#code">Code Example</a></li>
+              <li><a href="#work">Work experience</a></li>
+              <li><a href="#education">Education and courses</a></li>
+              <li><a href="#languages">Languages</a></li>
+          </ul>
       </nav>
     </header>
     <main>
       <section class="wrapper">
-        <div class="wrap-contacts">
-          <h1>Tokar Ekaterina</h1>
-          <ul class="contacts">
-            <li>E-mail: ekaterinatokar19@gmail.com</li>
-            <li>Phone: +998 91 791-99-51</li>
-          </ul>
-        </div>
-        <div class="wrap-about-me">
+        <div class="wrap_about-me">
           <h2 id="summary" class="about-me">Summary</h2>
-          <p class="about-me-desc">
+          <p class="about-me_desc">
             I am a responsible, adaptable and self-motivated individual. I am
             friendly, helpful and polite, I’m honest and punctual, I work well
             in a team. I am very organized and always plan ahead to make sure I
             manage my time well.
           </p>
         </div>
-        <div class="my-skills">
-          <h2 id="skills">Skills</h2>
+        <div class="my_skills">
+          <h2 id="skills" class="skills">Skills</h2>
           <ul>
             <li>HTML5, CSS3</li>
             <li>JavaScript Basics</li>
             <li>Git</li>
           </ul>
         </div>
-        <div class="my-code">
-          <h2 id="code">Code Example</h2>
+        <div class="my_code">
+          <h2 id="code" class="code">Code Example</h2>
           <pre>
           <code>
-            var removeDuplicates = function(s) {
-    for (let i = 0; i &lt; s.length - 1; ) {
-        let j = i + 1;
-        if (s[i] == s[j]) {
-            s = s.substr(0, i) + s.substr(i + 2);
-            i--;
-        } else {
-            i++;
-        }
-    }
-    return s;
-};
-
+  let removeDuplicates = function(s) {
+   for (let i = 0; i &lt; s.length - 1; ) {
+     let j = i + 1;
+       if (s[i] == s[j]) {
+         s = s.substr(0, i) + s.substr(i + 2);
+         i--;
+       } else {
+         i++;
+     }
+   }
+   return s;
+  };
           </code>
           </pre>
         </div>
-        <div class="work-experiance">
-          <h2 id="work">Work experience</h2>
+        <div class="work_experiance">
+          <h2 id="work" class="work">Work experience</h2>
           <p>-</p>
         </div>
         <div class="educat">
-          <h2 id="education">Education and courses</h2>
+          <h2 id="education" class="education">Education and courses</h2>
           <ol>
             <li>
               JavaScript
@@ -81,20 +82,20 @@
           </ol>
         </div>
         <div class="lang">
-          <h2 id="languages">Languages</h2>
-
+          <h2 id="languages" class="languages">Languages</h2>
           <p>English – B1</p>
         </div>
       </section>
     </main>
-    <footer class="wrap-footer">
-      <ul class="footer-list">
-        <li class="text-left">
+  </div>
+    <footer class="wrap_footer">
+      <ul class="footer_list">
+        <li class="text_left">
           <a href="https://rs.school/" target="_blank">
             <img src="img/rsschool-logo_250x150.png" alt="logo">
 		  </a>
         </li>
-        <li class="text-right">
+        <li class="text_right">
           <a href="https://github.com/EkaterinaTokar" target="_blank">
 		    <img src="img/logo-github_250x150.png" alt="logo-github">
 		  </a>
