@@ -1,1 +1,2 @@
-https://github.com/EkaterinaTokar/rsschool-cv/blob/gh-pages/cv.md
+https://ekaterinatokar.github.io/rsschool-cv/cv  
+https://ekaterinatokar.github.io/rsschool-cv/
