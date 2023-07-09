@@ -1,1 +1,1 @@
-https://github.com/EkaterinaTokar/rsschool-cv/blob/rsschool-cv-html/index.html
+https://ekaterinatokar.github.io/rsschool-cv/index.html
